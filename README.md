@@ -14,5 +14,26 @@ Create and implement a backend system that is called from the sample UI that we 
 Once you are happy with your solution, please answer the following questions. There is no need for an essay - bullet pointing the key bits is completely fine!
 
 1. How did you verify that everything works correctly?
+    I tested each rule one by one, making sure each one is corrected. 
+        - Test 6-9.
+        - Test 1-5.
+        - Test vowels and symbols.
+    I used postman to check the api is sending the correct data.
+    I manually tested with the UI.
+    Checked DB connection.
+
 2. How long did it take you to complete the task?
+    It took me about 1.5 hours to complete and test the api.
+
 3. What else could be done to your solution to make it ready for production?
+    I would add:
+        - Unit Tests
+        - Integration Tests
+        - Refactoring/File management
+        - Add Async
+        - Error Handling
+        - SQL injections protection
+        - Remove CORS bypass code that for testing, and add real CORS security
+        - HTTPS
+        - Limit the calls to the api
+        - Documentation

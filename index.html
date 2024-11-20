@@ -34,14 +34,15 @@
 
         <script type="text/javascript">
             async function onButtonClick() {
-                // 📃 To do: Get avatar URI from back end
-                //
-                // const userIdentifier = document.getElementById('userIdentifierInput').value;
-                // const response = await fetch(`https://localhost:7126/avatar?userIdentifier=${userIdentifier}`);
-                // const responseBody = await response.json();
-                // const avatarUrl = responseBody.url;
+                //📃 To do: Get avatar URI from back end
+                
+                let userIdentifier = document.getElementById('userIdentifierInput').value;
+                userIdentifier = encodeURIComponent(userIdentifier)
+                const response = await fetch(`http://localhost:7126/api/avatar?userIdentifier=${userIdentifier}`);
+                const responseBody = await response.json();
+                const avatarUrl = responseBody.url;
 
-                const avatarUrl = 'https://api.dicebear.com/8.x/pixel-art/png?seed=default&size=150';
+                //const avatarUrl = 'https://api.dicebear.com/8.x/pixel-art/png?seed=default&size=150';
                 document.getElementById('userAvatarImage').src = avatarUrl;
             }
         </script>
