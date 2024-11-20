@@ -14,6 +14,7 @@ Create and implement a backend system that is called from the sample UI that we 
 Once you are happy with your solution, please answer the following questions. There is no need for an essay - bullet pointing the key bits is completely fine!
 
 1. How did you verify that everything works correctly?
+   /n
     I tested each rule one by one, making sure each one is corrected. 
         - Test 6-9.
         - Test 1-5.
@@ -22,10 +23,10 @@ Once you are happy with your solution, please answer the following questions. Th
     I manually tested with the UI.
     Checked DB connection.
 
-2. How long did it take you to complete the task?
+3. How long did it take you to complete the task?
     It took me about 1.5 hours to complete and test the api.
 
-3. What else could be done to your solution to make it ready for production?
+4. What else could be done to your solution to make it ready for production?
     I would add:
         - Unit Tests
         - Integration Tests
