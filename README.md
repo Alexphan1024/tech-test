@@ -24,9 +24,12 @@ Once you are happy with your solution, please answer the following questions. Th
     Checked DB connection.
 
 3. How long did it take you to complete the task?
+
     It took me about 1.5 hours to complete and test the api.
 
-4. What else could be done to your solution to make it ready for production?
+5. What else could be done to your solution to make it ready for production?
+
+   
     I would add:
         - Unit Tests
         - Integration Tests
